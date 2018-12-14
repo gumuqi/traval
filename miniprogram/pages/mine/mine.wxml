@@ -1,0 +1,29 @@
+<!--pages/mine/mine.wxml-->
+<view class='user-info'>
+  <view class='icon'>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class='name'>
+    <open-data type="userNickName"></open-data>
+  </view>
+
+</view>
+<view class='box-list'>
+  <view class='workbench'>
+    <view class='list'>
+      <view class='item'>
+        <navigator url='../articleEditor/editor'>
+          <image src='../../images/desk_publish@2x.png'></image>
+          <text>发布足迹</text>
+        </navigator>
+      </view>
+      <view class='item'>
+        <navigator url='../articleEditor/editor'>
+          <image src='../../images/desk_order@2x.png'></image>
+          <text>文章管理</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
+

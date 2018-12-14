@@ -1,0 +1,28 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">{{detail.article_title}}</view>
+            <view class="weui-article__section">
+                <view class="weui-article__title">章标题</view>
+                <view class="weui-article__section">
+                    <view class="weui-article__p">
+                    {{detail.article_content}}
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../../images/1.png" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="../../images/1.png" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="article_comment">
+      <button bindtap="open" class="open">
+        <icon type="info_circle" class="icon_edit" size="18"></icon>
+      </button>
+      <view class="icon_comment">
+          <image src='../../images/icon_nav_form.png'/>
+          <view class="badge">8</view>
+      </view>
+    </view>
+</view>

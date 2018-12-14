@@ -1,0 +1,38 @@
+/* pages/mine/mine.wxss */
+.user-info {
+  height: 300rpx;
+  background: #0183E5;
+  opacity: 0.8;
+}
+.user-info .icon {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.box-list {
+  padding: 32rpx 32rpx;
+}
+.box-list .workbench{
+  margin-bottom: 60rpx;
+  border: 1rpx solid #eee;
+  box-shadow: 0 6rpx 10rpx #eee;
+}
+.workbench .list{
+  display: flex;
+  padding: 32rpx 16rpx;
+}
+.workbench .item{
+  width: 100rpx;
+  margin: 0rpx 32rpx;
+  text-align: center;
+}
+.workbench .item image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.workbench .item text{
+  display: block;
+  text-align: center;
+  margin-top: 10rpx;
+  font-size: 20rpx;
+}

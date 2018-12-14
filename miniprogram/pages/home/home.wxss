@@ -1,0 +1,41 @@
+.container{
+
+}
+.article_list {
+  padding:0rpx 32rpx;
+}
+.article_item {
+  background:#fff;
+}
+.article_title {
+  margin-bottom: 10rpx;
+  font-size: 36rpx;
+}
+.article_img .image {
+  width: 30%;
+  height: 140rpx;
+  margin-right: 5%;
+}
+.image:last-child {
+  margin: 0rpx;
+}
+.time {
+  float: left;
+  font-size: 18rpx;
+}
+.comment {
+  float: right;
+  font-size: 18rpx;
+}
+.clearfix::after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.line {
+  height: 1;
+  margin: 34rpx 0rpx 20rpx 0rpx;
+  border-top: 1rpx solid #eee;
+}

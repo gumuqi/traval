@@ -1,0 +1,41 @@
+/* pages/articleDetail/detail.wxss */
+.page {
+
+}
+.article_comment {
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  height: 32rpx;
+  padding:4rpx 8rpx;
+  line-height:28rpx;
+  background: #eee;
+}
+.open {
+  width: 200rpx;
+  height:32rpx;
+  float:left;
+  margin-right: 10rpx;
+  line-height:28rpx;
+  text-align:left;
+  background:#fff;
+}
+.open .icon_edit{
+  height: 18rpx; 
+}
+.icon_comment {
+  float:left;
+  position: relative;
+  margin-top:4rpx;
+}
+.icon_comment image {
+  width: 24rpx;
+  height: 24rpx;
+}
+.badge {
+  position:absolute;
+  top:-2rpx;
+  right:-10rpx;
+  line-height:1em;
+  font-size:12rpx;
+}

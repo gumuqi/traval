@@ -1,0 +1,23 @@
+<scroll-view class="container">
+  <view  class="article_list">
+  
+    <view class="article_item" wx:for="{{articleList}}" wx:for-item="trip">
+    <navigator url="../articleDetail/detail?articleId={{trip._id}}">
+      <view class="article_title">{{trip.article_title}}</view>
+      <view class="article_img">
+        <image class="image" src="../../images/1.png"></image>
+        <image class="image" src="../../images/1.png"></image>
+        <image class="image" src="../../images/1.png"></image>
+      </view>
+      <view class="clearfix">
+        <text class="time">{{trip.article_time}}</text>
+        <text class="comment">{{trip.comment_num}}</text>
+      </view>
+      <view class='line'></view>
+    </navigator>
+    </view>
+    
+  
+  </view>
+
+</scroll-view>

@@ -1,0 +1,4 @@
+/* miniprogram/pages/articleEditor/editor.wxss */
+.container {
+  padding: 0 16rpx;
+}

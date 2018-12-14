@@ -1,0 +1,18 @@
+<!--miniprogram/pages/articleEditor/editor.wxml-->
+<scroll-view class="container">
+<form bindsubmit="formSubmit">
+  <view>
+    <input name="article_title" placeholder="请输入文章标题"/>
+  </view>
+  <view>
+    <textarea name="article_content" placeholder="请输入文章内容" style="height: 3.3em" />
+  </view>
+  <view>
+    <label>私有文章</label>
+    <switch name="article_share"/>
+  </view>
+  <view class="btn-area">
+    <button type="primary" form-type="submit">发布</button>
+  </view>
+</form>
+</scroll-view>
