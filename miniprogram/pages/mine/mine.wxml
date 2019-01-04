@@ -1,11 +1,14 @@
 <!--pages/mine/mine.wxml-->
-<view class='user-info'>
-  <view class='icon'>
-    <open-data type="userAvatarUrl"></open-data>
+<view class='user-wrap'>
+  <view class='user-info'>
+      <view class='icon'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class='name'>
+        <open-data type="userNickName"></open-data>
+      </view>
   </view>
-  <view class='name'>
-    <open-data type="userNickName"></open-data>
-  </view>
+
 
 </view>
 <view class='box-list'>

@@ -1,13 +1,24 @@
 /* pages/mine/mine.wxss */
-.user-info {
+.user-wrap {
+  position: relative;
   height: 300rpx;
   background: #0183E5;
-  opacity: 0.8;
+}
+.user-info {
+  position: absolute;
+  left: 50rpx;
+  top: 50rpx;
 }
 .user-info .icon {
-  width: 100rpx;
-  height: 100rpx;
-  border-radius: 50%;
+  float: left;
+  width: 80rpx;
+  height: 80rpx;
+}
+.user-info .name {
+  float: left;
+  margin-left: 16rpx;
+  font-size: 32rpx;
+  color: #fff;
 }
 .box-list {
   padding: 32rpx 32rpx;

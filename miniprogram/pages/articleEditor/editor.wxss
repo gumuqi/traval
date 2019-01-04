@@ -1,4 +1,45 @@
-/* miniprogram/pages/articleEditor/editor.wxss */
-.container {
-  padding: 0 16rpx;
+page{
+  min-height:100%;
+  color: #2a2a2a;
+  font-size: 36rpx;
+}
+.input_view{
+  display: flex;
+  padding: 10px;
+  font-size: 32rpx;
+}
+.img_view{
+  display: flex;
+  padding: 4px;
+  background-color: white;
+  margin-left: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.title {
+  padding:10px;
+  font-size:32rpx;
+}
+.toWrite {
+  width:90rpx;
+  height:90rpx;
+  display: block;
+  background-size:cover;
+  position:fixed;
+  right:32rpx;
+  bottom:178rpx;
+  border-radius: 50%;
+  background-color: #cdcdcd;
+  opacity: 0.7;
+  z-index: 999;
+  border: 2rpx white solid;
+  box-shadow: 0rpx 0rpx 2rpx #f0f0f0;
+}
+.footer {
+  position: fixed;
+  padding: 32rpx 32rpx 64rpx 32rpx;
+  left: 0rpx;
+  right: 0rpx;
+  bottom: 0rpx;
+  background: #fff;
 }

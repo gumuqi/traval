@@ -5,9 +5,7 @@
     <navigator url="../articleDetail/detail?articleId={{trip._id}}">
       <view class="article_title">{{trip.article_title}}</view>
       <view class="article_img">
-        <image class="image" src="../../images/1.png"></image>
-        <image class="image" src="../../images/1.png"></image>
-        <image class="image" src="../../images/1.png"></image>
+        <image class="image" wx:for="{{trip.article_content}}" wx:for-item="content" src="https://6465-dev-fe800d-1258191243.tcb.qcloud.la/{{content.cloudPath}}"></image>
       </view>
       <view class="clearfix">
         <text class="time">{{trip.article_time}}</text>
